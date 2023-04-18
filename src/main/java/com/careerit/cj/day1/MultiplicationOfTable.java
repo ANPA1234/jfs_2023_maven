@@ -1,6 +1,4 @@
 package com.careerit.cj.day1;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class MultiplicationOfTable {
