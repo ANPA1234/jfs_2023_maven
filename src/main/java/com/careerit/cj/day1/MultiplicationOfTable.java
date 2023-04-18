@@ -1,10 +1,15 @@
 package com.careerit.cj.day1;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class MultiplicationOfTable {
     public static void main(String[] args) {
-        int num = 19;
-        for(int i=1;i <=10; i++){
-            System.out.println(String.format("%s * %s",num, i, num * i));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the num:");
+        int num = sc.nextInt();
+        for(int i=1;i <=20; i++){
+            System.out.println(String.format("%s * %s = %s",num, i, num * i));
         }
     }
 }
